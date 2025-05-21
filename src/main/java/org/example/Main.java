@@ -1,7 +1,13 @@
 package org.example;
 
+import org.example.factoryMethod.Loja;
+import org.example.factoryMethod.LojaEconomica;
+import org.example.factoryMethod.Veiculo;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Loja loja = new LojaEconomica();
+        loja.criarVeiculo("moto").descrever();
     }
 }
