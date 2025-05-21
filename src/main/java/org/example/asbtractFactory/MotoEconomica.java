@@ -1,6 +1,6 @@
 package org.example.asbtractFactory;
 
-public class MotoEconomica implements Veiculo {
+public class MotoEconomica implements Moto {
 
     @Override
     public void descrever() {
