@@ -1,8 +1,9 @@
 package org.example.asbtractFactory;
 
-public class LojaLuxo extends Loja {
+public class LojaCarroEconomico extends Loja{
+
     @Override
     public Veiculo criarVeiculo(Veiculo veiculo) {
-        return null;
+        return new CarroEconomico();
     }
 }
